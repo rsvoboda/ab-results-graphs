@@ -39,7 +39,7 @@ set terminal jpeg size 1400,720
 set size 1, 1
 
 # The file to write to
-if (!exists("toutfilename")) outfilename='out-timeseries.jpg'
+if (!exists("toutfilename")) toutfilename='out-timeseries.jpg'
 set output toutfilename
 
 # The graph title
