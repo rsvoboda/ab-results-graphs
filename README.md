@@ -1,4 +1,4 @@
-# ab-resuts-graphs
+# ab-results-graphs
 
 Apache Bench tool can generate data (using -g option) for plotting the graphs using gnuplot. Included gnuplot script generates 2 graphs. First one is about overall distribution of request-response times (in ms). Second graph is about responses (in ms) over time (seconds, serially)
 
